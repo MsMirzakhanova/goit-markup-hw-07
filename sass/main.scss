@@ -1,6 +1,26 @@
+//utils styles
 @import './utils/vars';
-@import './utils/commonStyles.';
-@import './utils/reset';
+@import './utils/visHidden';
 @import './utils/mixins';
 @import './utils/placeholders';
+
+//base styles
+@import './base/commonStyles';
+@import './base/reset';
+
+//components
 @import './components/socialNetworks';
+@import './components/logo';
+@import './components/contacts';
+@import './components/emailForm';
+@import './components/backdrop';
+
+//layouts
+@import './layouts/pageHeader';
+@import './layouts/nav';
+@import './layouts/hero';
+@import './layouts/features';
+@import './layouts/works';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/pageFooter';
