@@ -5,18 +5,8 @@
   }
 
   &__logo {
-    @extend .logo;
     color: var(--title-text-color);
     text-align: left;
     margin-right: 93px;
-  }
-
-  &__contacts__link {
-    color: var(--primary-text-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-  &__contacts__link:not(:last-child) {
-    margin-right: 50px;
   }
 }

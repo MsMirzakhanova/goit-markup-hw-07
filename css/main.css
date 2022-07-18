@@ -25,7 +25,7 @@
   margin: -1px;
 }
 
-.clients__list {
+.clients__list, .team__container, .works__container, .features__container, .contacts, .social-networks__list:not(:last-child) {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -157,7 +157,7 @@ textarea {
   color: var(--primary-bg-color);
 }
 
-.logo, .page-footer__logo, .page-header__logo {
+.logo, .page-footer__logo {
   display: inline-block;
   font-family: raleway, sans-serif;
   font-weight: 700;
@@ -177,6 +177,16 @@ textarea {
   margin-right: 10px;
 }
 
+.contacts__text {
+  color: var(--primary-bg-color);
+  font-style: normal;
+  margin-bottom: 9px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .contacts__link {
   font-weight: 500;
   line-height: 1.14;
@@ -186,6 +196,15 @@ textarea {
 }
 .contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
+}
+
+.header-contacts__contacts__link {
+  color: var(--primary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-contacts__contacts__link:not(:last-child) {
+  margin-right: 50px;
 }
 
 .email-form {
@@ -503,7 +522,7 @@ textarea {
           transform: translateY(0);
 }
 
-.overflow--hidden {
+.overflow-hidden {
   position: relative;
   overflow: hidden;
 }
@@ -524,14 +543,6 @@ textarea {
   color: var(--title-text-color);
   text-align: left;
   margin-right: 93px;
-}
-.page-header__contacts__link {
-  color: var(--primary-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-.page-header__contacts__link:not(:last-child) {
-  margin-right: 50px;
 }
 
 .nav__list {
@@ -813,15 +824,6 @@ textarea {
   color: var(--primary-bg-color);
   line-height: 1.17;
   margin-bottom: 20px;
-}
-
-.contacts {
-  color: var(--primary-bg-color);
-  font-style: normal;
-  margin-bottom: 9px;
-}
-.contacts__item:not(:last-child) {
-  margin-bottom: 9px;
 }
 
 .page-footer__contacts__link {

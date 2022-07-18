@@ -1,5 +1,6 @@
 .features {
   &__container {
+    @extend %list;
     display: flex;
   }
   &__title {

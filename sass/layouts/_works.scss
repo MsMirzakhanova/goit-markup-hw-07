@@ -2,6 +2,7 @@
   padding-top: 0;
 
   &__container {
+    @extend %list;
     display: flex;
   }
   &__title {

@@ -21,7 +21,7 @@
     <!-- Шапка страницы -->
     <header class="page-header">
       <div class="container page-header__container">
-        <a href="./index.html" class="logo page-header__logo">
+        <a href="./index.html" class="page-header__logo logo">
           <span class="logo__part">Web</span>Studio</a
         >
         <nav class="nav">
@@ -35,14 +35,17 @@
             <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
           </ul>
         </nav>
-        <div class="list contacts">
-          <a href="mailto:info@devstudio.com" class="contacts__link page-header__contacts__link">
+        <div class="contacts header-contacts">
+          <a
+            href="mailto:info@devstudio.com"
+            class="contacts__link header-contacts__contacts__link"
+          >
             <svg class="contacts__icon" width="16" height="12">
               <use href="./images/symbol-defs.svg#envelope"></use>
             </svg>
             info@devstudio.com</a
           >
-          <a href="tel:+380961111111" class="contacts__link page-header__contacts__link">
+          <a href="tel:+380961111111" class="contacts__link header-contacts__contacts__link">
             <svg class="contacts__icon" width="10" height="16">
               <use href="./images/symbol-defs.svg#smartphone"></use>
             </svg>
@@ -77,7 +80,7 @@
           <ul class="list portfolio container">
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
-                <div class="overflow--hidden">
+                <div class="overflow-hidden">
                   <img src="./images/Pimg1.jpg" alt="Фото сайта" width="370" />
                   <div class="overlay">
                     <p class="overlay__descr">
@@ -95,7 +98,7 @@
             </li>
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
-                <div class="overflow--hidden">
+                <div class="overflow-hidden">
                   <img src="./images/Pimg2.jpg" alt="Два баскетболиста" width="370" />
                   <div class="overlay">
                     <p class="overlay__descr">
@@ -115,7 +118,7 @@
             </li>
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
-                <div class="overflow--hidden">
+                <div class="overflow-hidden">
                   <img src="./images/Pimg3.jpg" alt="Логотип ресторана" width="370" />
                   <div class="overlay">
                     <p class="overlay__descr">
@@ -133,7 +136,7 @@
             </li>
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
-                <div class="overflow--hidden">
+                <div class="overflow-hidden">
                   <img src="./images/Pimg4.jpg" alt="Наушники" width="370" />
                   <div class="overlay">
                     <p class="overlay__descr">
@@ -151,7 +154,7 @@
             </li>
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
-                <div class="overflow--hidden">
+                <div class="overflow-hidden">
                   <img src="./images/Pimg5.jpg" alt="Коробки" width="370" />
                   <div class="overlay">
                     <p class="overlay__descr">
@@ -169,7 +172,7 @@
             </li>
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
-                <div class="overflow--hidden">
+                <div class="overflow-hidden">
                   <img src="./images/Pimg6.jpg" alt="Монитор" width="370" />
                   <div class="overlay">
                     <p class="overlay__descr">
@@ -187,7 +190,7 @@
             </li>
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
-                <div class="overflow--hidden">
+                <div class="overflow-hidden">
                   <img src="./images/Pimg7.jpg" alt="Фото журнала" width="370" />
                   <div class="overlay">
                     <p class="overlay__descr">
@@ -205,7 +208,7 @@
             </li>
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
-                <div class="overflow--hidden">
+                <div class="overflow-hidden">
                   <img src="./images/Pimg8.jpg" alt="Фото бирки" width="370" />
                   <div class="overlay">
                     <p class="overlay__descr">
@@ -223,7 +226,7 @@
             </li>
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
-                <div class="overflow--hidden">
+                <div class="overflow-hidden">
                   <img src="./images/Pimg9.jpg" alt="Фото ноутбука" width="370" />
                   <div class="overlay">
                     <p class="overlay__descr">
@@ -250,9 +253,9 @@
           <a href="./index.html" class="logo page-footer__logo">
             <span class="logo__part">Web</span>Studio</a
           >
-          <address>
-            <p class="contacts">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="list contacts__list">
+          <address class="contacts">
+            <p class="contacts__text">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="list">
               <li class="contacts__item">
                 <a href="mailto:info@example.com" class="contacts__link page-footer__contacts__link"
                   >info@example.com</a
@@ -321,7 +324,7 @@
             <div class="email-form">
               <input type="email" name="E-mail" id="E-mail" class="email-form__input" />
               <label for="E-mail" class="email-form__label">E-mail</label>
-              <button type="submit" class="button email-form__button">
+              <button type="submit" class="email-form__button">
                 Подписаться
                 <svg class="email-form__icon" width="24" height="24">
                   <use href="./images/symbol-defs.svg#icon-send"></use>

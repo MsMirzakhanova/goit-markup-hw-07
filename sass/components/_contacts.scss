@@ -1,10 +1,21 @@
 .contacts {
+  @extend %list;
   margin-left: auto;
 
   &__icon {
     fill: currentColor;
     margin-right: 10px;
   }
+}
+
+.contacts__text {
+  color: var(--primary-bg-color);
+  font-style: normal;
+  margin-bottom: 9px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contacts__link {

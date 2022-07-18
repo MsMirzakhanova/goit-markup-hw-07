@@ -22,15 +22,6 @@
   }
 }
 
-.contacts {
-  color: var(--primary-bg-color);
-  font-style: normal;
-  margin-bottom: 9px;
-
-  &__item:not(:last-child) {
-    margin-bottom: 9px;
-  }
-}
 .page-footer__contacts__link {
   display: inline-block;
   color: var(--contacts-footer-color);
